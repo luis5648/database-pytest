@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "/bin/python3",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "dbtest",
+            "database": "${workspaceFolder:database-pytest}/ndb.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
